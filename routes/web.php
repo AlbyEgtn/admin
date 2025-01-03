@@ -110,6 +110,7 @@ Route::group(['middleware' => 'web'], function() {
     Route::get('welcome', [UserController::class, 'welcome'])->name('welcome');
     Route::get('/user/organisasi', [UserController::class, 'organisasi'])->name('user.organisasi');
     Route::get('/user/pendaftaran', [UserController::class, 'pendaftaran'])->name('user.pendaftaran');
+    Route::get('/user/kegiatan', [UserController::class, 'kegiatan'])->name('user.kegiatan');
 //     Route::get('/user/flashsale', [UserController::class, 'fs'])->name('user.fs');
 //     Route::get('/user/product/detail/{id}', [UserController::class, 'detail_product'])->name('user.detail.product');
 //     Route::get('/product/purchase/{productId}/{userId}', [UserController::class, 'purchase']);

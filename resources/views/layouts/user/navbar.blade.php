@@ -35,7 +35,7 @@
                             <li class="nav-item "><a class="nav-link" href="">Berita</a></li>
                         </ul>
                         <ul class="nav navbar-nav menu_nav ml-5">
-                            <li class="nav-item "><a class="nav-link" href="">Kegiatan</a></li>
+                            <li class="nav-item "><a class="nav-link" href="{{route('user.kegiatan')}}">Kegiatan</a></li>
                         </ul>
                         <ul class="nav navbar-nav menu_nav ml-5">
                             <li class="nav-item "><a class="nav-link topnav-right" href="{{route('user.login')}}">LOGIN</a></li>

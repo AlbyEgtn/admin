@@ -27,6 +27,9 @@ class UserController extends Controller
     public function pendaftaran(Request $request) {
         return view('pages.user.pendaftaran');
     }
+    public function kegiatan(Request $request) {
+        return view('pages.user.kegiatan');
+    }
     public function dashboard(Request $request) {
         return view('pages.user.dashboard');
     }

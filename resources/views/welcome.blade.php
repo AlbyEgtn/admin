@@ -118,19 +118,67 @@
                 
     <footer class="footer-area section_gap">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <img src="{{asset('assets/templates/user/img/logo.png')}}" alt="">
+                    <div class="single-footer-widget">
+                        <h6>ORMAWA</h6>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-footer-widget">
+                        <h6>Links</h6>
+                        <ul>
+                            <li><a href="{{route('user.pendaftaran')}}">Pendaftaran</a></li>
+                            <li><a href="#">Berita</a></li>
+                            <li><a href="{{route('user.kegiatan')}}">Kegiatan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-footer-widget">
+                        <h6>Alamat</h6>
+                        <p>F552+G9C, Sungai Alam, Kec. Bengkalis, Kabupaten Bengkalis, Riau 28714</p>
+                    </div>
+                </div>
+            </div>
             <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
-                <p class="footer-text m-0">
-    
-                    Copyright &copy:
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i>
-                    by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-    
-                </p>
+                <p class="footer-text m-0">&copy; 2024 Copyright by Bebas. All rights reserved</p>
             </div>
         </div>
     </footer>
+    <style>
+    .footer-area {
+        background-color: #f9f9f9;
+        padding: 40px 0;
+        border-top: 1px solid #ddd;
+    }
+    .footer-area .single-footer-widget h6 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .footer-area .single-footer-widget ul {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-area .single-footer-widget ul li {
+        margin-bottom: 10px;
+    }
+    .footer-area .single-footer-widget ul li a {
+        color: #555;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer-area .single-footer-widget ul li a:hover {
+        color: #007bff;
+    }
+    .footer-bottom {
+        margin-top: 20px;
+    }
+    </style>
+    
            
     
 
